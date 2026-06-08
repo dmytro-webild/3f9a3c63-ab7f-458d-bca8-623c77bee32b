@@ -161,6 +161,9 @@ export default function LandingPage() {
       description="Profitieren Sie von unserer tiefgehenden Marktkenntnis und einem Netzwerk, das Ihre Investitionsziele in der Türkei optimal unterstützt."
       tag="Ihr vertrauensvoller Partner"
       tagIcon={ShieldCheck}
+      buttons={[
+        { text: "Kostenlose Beratung anfordern", href: "#contact" }
+      ]}
     />
   </div>
 
