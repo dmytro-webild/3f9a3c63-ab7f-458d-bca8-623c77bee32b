@@ -18,7 +18,7 @@
   --secondary-cta: #000000;
   --secondary-cta-text: #ffffff;
   --accent: #535353;
-  --background-accent: #CEE7FF;
+  --background-accent: #e5e7db;
 
   /* text sizing - set by ThemeProvider */
   /* --text-2xs: clamp(0.465rem, 0.62vw, 0.62rem);
