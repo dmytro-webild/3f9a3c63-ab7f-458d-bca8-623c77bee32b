@@ -43,13 +43,13 @@ export const metadata: Metadata = {
 };
 
 
-const mulish = Mulish({
-  variable: "--font-mulish",
-  subsets: ["latin"],
+
+const libreBaskerville = Libre_Baskerville({
+  variable: "--font-libre-baskerville",  subsets: ["latin"],
+  weight: ["400", "700"],
 });
 const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
+  variable: "--font-inter",  subsets: ["latin"],
 });
 
 export default function RootLayout({
@@ -60,7 +60,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${mulish.variable} ${inter.variable} antialiased`}>
+        <body className={`${libreBaskerville.variable} ${inter.variable} antialiased`}>
           <Tag />
           {children}
           <script
